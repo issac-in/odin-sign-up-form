@@ -24,10 +24,12 @@
         </p>
     </div>
     <main>
-        <h1>Sign Up</h1>
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-        <p>Sign up <em>now</em> to get started.</p>
-        <p>You <em>know</em> you want to.</p>
+        <section class="call-to-action">
+            <h1>Sign Up</h1>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </section>
 
         <form action="https://httpbin.org/post" method="post" id="sign_up">
             <h2>Let's do this!</h2>
@@ -50,8 +52,10 @@
             <label for="user_password_confirm">CONFIRM PASSWORD</label>
             <input type="password" id="user_password_confirm" name="user_password_confirm">
         </form>
-        <button type="submit" form="sign_up">Create Account</button>
-        <p>Already have an account? Log in</p>
+        <div class="action">
+            <button type="submit" form="sign_up">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
     </main>
 </body>
 

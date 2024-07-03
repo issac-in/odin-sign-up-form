@@ -64,3 +64,53 @@ body {
 }
 
 /* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFB;
+}
+
+.call-to-action, form, .action {
+    padding: 1.5rem 3rem;
+}
+
+/* --- Call to Action --- */
+.call-to-action {
+    margin-top: 5.1rem;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.call-to-action p:last-child{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Form --- */
+form {
+    background-color: white;
+    box-shadow: 0 0.25rem 0.5rem 0.1rem rgb(0,0,0, 30%);
+}
+
+/* --- Action --- */
+.action button {
+    background-color: #596D48;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.action p {
+    margin-top: 1.5rem;
+}
+
+.action span {
+    color: #596D48;
+    font-weight: bold;
+}
