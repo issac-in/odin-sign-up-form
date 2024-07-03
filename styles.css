@@ -1,0 +1,17 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./assets/fonts/Norse-Bold.otf);
+}
+
+/* font-family: norse-bold, sans-serif; */
+/* font-family: "Source Sans 3", sans-serif; */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
