@@ -3,9 +3,6 @@
     src: url(./assets/fonts/Norse-Bold.otf);
 }
 
-/* font-family: norse-bold, sans-serif; */
-/* font-family: "Source Sans 3", sans-serif; */
-
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 900
 
@@ -15,3 +12,55 @@
   font-weight: <weight>;
   font-style: normal;
 } */
+ 
+* {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+/* Side Banner */
+.side-banner {
+    background-image: url("./assets/green-leaf-plant-halie-west.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 50%;
+}
+
+.side-banner,
+.side-banner a:link,
+.side-banner a:visited {
+    color: white;
+}
+
+.logo {
+    align-items: center;
+    background-color: rgb(0,0,0, 60%);
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    margin-top: 12rem;
+    padding: 0.5rem 0;
+}
+
+.logo img {
+    object-fit: contain;
+    width: 12%;
+}
+
+.norse-font {
+    font-family: norse-bold, sans-serif;
+    font-size: 5rem;
+}
+
+.credits {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Main Section */
