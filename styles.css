@@ -93,6 +93,52 @@ main {
 form {
     background-color: white;
     box-shadow: 0 0.25rem 0.5rem 0.1rem rgb(0,0,0, 30%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-bottom: 3rem;
+}
+
+form h2 {
+    flex-basis: 100%;
+    margin-bottom: -1.5rem;
+}
+
+form .wrapper {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+}
+
+form .relative {
+    margin-top: 3rem;
+    position: relative;
+}
+
+form label {
+    position: absolute;
+    top: -1.3rem;
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+form input {
+    width: 33ch;
+    border: 0.15rem solid #E5E7EB;
+    border-radius: 0.3rem;
+}
+
+form input:invalid {
+    border-color: #931621;
+}
+
+form input:focus {
+    border-color: #4f759b;
+    box-shadow: 0 0 0.2rem 0.1rem rgba(79, 117, 155, 30%);
+    outline: none;
 }
 
 /* --- Action --- */
@@ -104,6 +150,11 @@ form {
     padding: 0.5rem 3rem;
     border-radius: 0.5rem;
     margin-top: 0.5rem;
+}
+
+.action button:focus {
+    box-shadow: 0 0 0.8rem 0.4rem rgba(79, 117, 155, 30%);
+    outline: #4f759b solid 0.15rem;
 }
 
 .action p {
