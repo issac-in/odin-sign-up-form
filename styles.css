@@ -239,8 +239,24 @@ form input {
     padding-left: 0.3rem;
 }
 
+form input:valid {
+    border-color: #596D48;   
+}
+
 form input:invalid {
     border-color: #931621;
+}
+
+form label[for="user_password"]::before {
+    content: var(--content);
+    position: absolute;
+    width: 28ch;
+    top: 3.3rem;
+    color: #931621;
+}
+
+form input:placeholder-shown {
+    border-color: #E5E7EB;
 }
 
 form input:focus {
