@@ -1,10 +1,7 @@
 @font-face {
     font-family: norse-bold;
     src: url(./assets/fonts/Norse-Bold.otf);
-}
- 
-* {
-    font-family: "Source Sans 3", sans-serif;
+    font-display: swap;
 }
 
 body {
@@ -86,8 +83,7 @@ small {
 /* #endregion */
 
 /* #region Banner */
-.side-banner {
-    background-image: url("./assets/green-leaf-plant-halie-west.png");
+.banner {
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -103,9 +99,9 @@ small {
     }
 }
 
-.side-banner,
-.side-banner a:link,
-.side-banner a:visited {
+.banner,
+.banner a:link,
+.banner a:visited {
     color: white;
 }
 
